@@ -1,0 +1,44 @@
+# Maven target directory
+target/
+*.class
+
+# Environment & Sensitive Files
+.env
+*.pem
+*.key
+
+# Reports and Output
+test-output/
+allure-results/
+allure-report/
+.allure/
+logs/
+*.log
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse Workspace Metadata
+.metadata/
